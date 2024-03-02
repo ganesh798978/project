@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        .form-group{
+            margin: 5px;
+            padding: 3px;
+            align-items: baseline;
+        }
+    </style>
+</head>
+<body>
+    <form action="/predict" method="post">
+        <div class="form-group">
+            <label style="color: black;" for="age">Age</label>
+            <input style="color: black;" class="form-control" type="text" id="age" name="0" required="required">
+        </div>
+        <div class="form-group">
+            <label style="color: black;" for="sex">Gender</label>
+            <input style="color: black;" class="form-control" type="text" id="sex" name="1" required="required">
+        </div>
+        <div class="form-group">
+            <label style="color: black;" for="age">education</label>
+            <input style="color: black;" class="form-control" type="text" id="education" name="2" required="required">
+        </div>
+        <div class="form-group">
+            <label style="color: black;" for="age">cueesmoker</label>
+            <input style="color: black;" class="form-control" type="text" id="currsmoker" name="3" required="required">
+        </div>
+        <div class="form-group">
+            <label style="color: black;" for="age">cpd</label>
+            <input style="color: black;" class="form-control" type="text" id="cpd" name="4" required="required">
+        </div>
+        <div class="form-group">
+            <label style="color: black;" for="bpmeds">BpMeds</label>
+            <input style="color: black;" class="form-control" type="text" id="bpmeds" name="5" required="required">
+        </div>
+        <div class="form-group">
+            <label style="color: black;" for="ps">Prestroke</label>
+            <input style="color: black;" class="form-control" type="text" id="ps" name="6" required="required">
+        </div>
+        <div class="form-group">
+            <label style="color: black;" for="ph">PH</label>
+            <input style="color: black;" class="form-control" type="text" id="ph" name="7" required="required">
+        </div>
+        <div class="form-group">
+            <label style="color: black;" for="dia">dia</label>
+            <input style="color: black;" class="form-control" type="text" id="dia" name="8" required="required">
+        </div>
+        <div class="form-group">
+            <label style="color: black;" for="tchl">tchl</label>
+            <input style="color: black;" class="form-control" type="text" id="tchl" name="9" required="required">
+        </div>
+        <div class="form-group">
+            <label style="color: black;" for="stsbp">sysbp</label>
+            <input style="color: black;" class="form-control" type="text" id="sysbp" name="10" required="required">
+        </div>
+        <div class="form-group">
+            <label style="color: black;" for="diabp">diabp</label>
+            <input style="color: black;" class="form-control" type="text" id="diabp" name="11" required="required">
+        </div>
+        <div class="form-group">
+            <label style="color: black;" for="BMI">BMI</label>
+            <input style="color: black;" class="form-control" type="text" id="BMI" name="12" required="required">
+        </div>
+        <div class="form-group">
+            <label style="color: black;" for="HeartRate">Heart Rate</label>
+            <input style="color: black;" class="form-control" type="text" id="HeartRate" name="13" required="required">
+        </div>
+        <div class="form-group">
+            <label style="color: black;" for="glo">Gloucse</label>
+            <input style="color: black;" class="form-control" type="text" id="glo" name="14" required="required">
+        </div>
+        <button type="submit" class="button" style="background-color: #04AA6D; 
+				border: none;
+				color: white;
+				padding: 15px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;">
+                Predict
+        </button>
+    </form>
+</body>
+</html>
